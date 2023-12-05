@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "73573094-6B79-4398-A4B5-C29CDC02D66E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27BABB55-5F42-4A42-9D49-1641C7D24EE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DTouchDemo/SceneDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-windowScene:performActionForShortcutItem:completionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27BABB55-5F42-4A42-9D49-1641C7D24EE0 - aee1e821f38b600c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SceneDelegate sceneDidDisconnect:]"
+                  moduleName = "3DTouchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hxb/Desktop/3DTouchDemo/3DTouchDemo/SceneDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "27BABB55-5F42-4A42-9D49-1641C7D24EE0 - 5dc4b3e9f77e0639"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SceneDelegate windowScene:performActionForShortcutItem:completionHandler:]"
+                  moduleName = "3DTouchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hxb/Desktop/3DTouchDemo/3DTouchDemo/SceneDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54A8A184-F08C-4175-843B-F95EE9F6365D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DTouchDemo/SceneDelegate.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-windowScene:performActionForShortcutItem:completionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54A8A184-F08C-4175-843B-F95EE9F6365D - ff9c9b222d752297"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SceneDelegate sceneDidBecomeActive:]"
+                  moduleName = "3DTouchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hxb/Desktop/3DTouchDemo/3DTouchDemo/SceneDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "54A8A184-F08C-4175-843B-F95EE9F6365D - 5dc4b3e9f77e05de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SceneDelegate windowScene:performActionForShortcutItem:completionHandler:]"
+                  moduleName = "3DTouchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hxb/Desktop/3DTouchDemo/3DTouchDemo/SceneDelegate.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
