@@ -33,23 +33,24 @@
 
 - (void)initShortcutItems {
     if (self.window.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) {
-        // 创建3DTouch的ShortcutItems由两种方式（注意：最多展示4个子item）
-        // 1.静态配置，直接在info.plist中配置UIApplicaitonShortcutItems
-        // 2.动态创建，代码编写
-        UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"type1" localizedTitle:@"标签1" localizedSubtitle:@"111" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypePlay] userInfo:@{
-            @"sex": @"男"
-        }];
         
-        UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"3DTouch_zero"];
-        UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"type2" localizedTitle:@"标签2" localizedSubtitle:@"222" icon:icon2 userInfo:@{
-            @"age": @"28"
-        }];
-        
-        UIApplicationShortcutIcon *icon3 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"3DTouch_account"];
-        UIApplicationShortcutItem *item3 = [[UIApplicationShortcutItem alloc] initWithType:@"type3" localizedTitle:@"标签3" localizedSubtitle:@"333" icon:icon3 userInfo:nil];
-        
-        UIApplication.sharedApplication.shortcutItems = @[item1, item2, item3];
     }
+    // 创建3DTouch的ShortcutItems由两种方式（注意：最多展示4个子item）
+    // 1.静态配置，直接在info.plist中配置UIApplicaitonShortcutItems
+    // 2.动态创建，代码编写
+    UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc] initWithType:@"type1" localizedTitle:@"标签1" localizedSubtitle:@"111" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypePlay] userInfo:@{
+        @"sex": @"男"
+    }];
+    
+    UIApplicationShortcutIcon *icon2 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"3DTouch_zero"];
+    UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc] initWithType:@"type2" localizedTitle:@"标签2" localizedSubtitle:@"222" icon:icon2 userInfo:@{
+        @"age": @"28"
+    }];
+    
+    UIApplicationShortcutIcon *icon3 = [UIApplicationShortcutIcon iconWithTemplateImageName:@"3DTouch_account"];
+    UIApplicationShortcutItem *item3 = [[UIApplicationShortcutItem alloc] initWithType:@"type3" localizedTitle:@"标签3" localizedSubtitle:@"333" icon:icon3 userInfo:nil];
+    
+    UIApplication.sharedApplication.shortcutItems = @[item1, item2, item3];
 }
 
 - (void)windowScene:(UIWindowScene *)windowScene performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler {
