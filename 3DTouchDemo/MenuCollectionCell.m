@@ -2,7 +2,7 @@
 //  MenuCollectionCell.m
 //  3DTouchDemo
 //
-//  Created by hxbank on 2023/12/5.
+//  Created by wdyzmx on 2023/12/5.
 //
 
 #import "MenuCollectionCell.h"
